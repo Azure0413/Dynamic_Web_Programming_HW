@@ -1,0 +1,125 @@
+/* H54084010 陳冠言 第2次作業 4/13 H54084010 Kuan-Yen, Chen The Second Homework 4/13*/
+/*此頁css有呈現text-shadow, border-radius, rgb-color, rgba-color*/
+body {
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+.headertext{
+    height: 30px;
+    background-color: khaki;
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+.english{
+    position: absolute;
+    right:2%;
+}
+
+.pic_tai{
+    width: 60%; 
+    display: block;
+    margin: 0 auto;
+} 
+
+nav{
+    background-color:rgb(245, 245, 220);
+}
+
+#nav{
+    display: flex;
+    list-style-type:none;
+    position: absolute;
+    right: 2%;
+}
+
+.navbar1{
+    padding:0.1rem 0.75rem;
+}
+
+.navbar{
+    padding:0.5rem 0.75rem;
+}
+
+#aside_table{ 
+    position: absolute;
+    left: 5%;top:35%;
+    border:1px solid black;
+}
+
+.content{
+    border:1px solid black;
+    padding: 1rem;
+}
+
+.tb1{
+    border:1px solid black;
+    padding: 0.5rem 3rem;
+}
+.tb2{
+    border:1px solid black;
+    padding: 0.5rem 2.5rem;
+}
+.tb3{
+    border:1px solid black;
+    padding: 0.5rem 1.5rem;
+}
+/* header皆通用 */
+
+section{
+    margin: 3rem 5rem;
+    position: absolute;
+    left:20%;
+}
+section h2{
+    margin-top: 2rem;
+    padding: 2px 20px;
+    border: 3px solid orange;
+    text-align: center;
+    background-color: rgba(224, 255, 255, 0.8);
+    border-radius: 50px;
+    text-shadow: -4px 4px 10px rgb(225, 165, 0);
+}
+section img{
+    padding-top: 1rem;
+    width:100%;
+}
+
+/*footer*/
+footer{
+    position:relative;
+    bottom: -900px;
+    display:flex;
+    list-style-type:none;
+    width: 100%;
+    background-color: chocolate;
+}
+.footer_div1{
+    padding: 1rem 7rem;
+}
+.footer_div2{
+    display: flex;
+    list-style-type:none;
+    padding-left:30rem;
+}
+.footer_div3{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.footer_div4{
+    padding-left: 2rem;
+}
+.footer_span{
+    color:#ffffff;
+    font-size: 1rem;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.footer_span1{
+    color:#ffffff;
+    font-size:1rem;
+    font-family:'Times New Roman', Times, serif;
+}

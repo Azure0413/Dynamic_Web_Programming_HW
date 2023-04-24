@@ -1,0 +1,176 @@
+/* H54084010 陳冠言 第2次作業 4/13 H54084010 Kuan-Yen, Chen The Second Homework 4/13*/
+/*此頁css有呈現animation*/
+body {
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+.headertext{
+    height: 30px;
+    background-color: khaki;
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+.english{
+    position: absolute;
+    right:2%;
+}
+
+.pic_tai{
+    width: 60%; 
+    display: block;
+    margin: 0 auto;
+} 
+
+nav{
+    background-color:beige;
+}
+
+#nav{
+    display: flex;
+    list-style-type:none;
+    position: absolute;
+    right: 2%;
+}
+
+.navbar1{
+    padding:0.1rem 0.75rem;
+}
+
+.navbar{
+    padding:0.5rem 0.75rem;
+}
+
+#aside_table{ 
+    position: absolute;
+    left: 5%;top:35%;
+    border:1px solid black;
+}
+
+.content{
+    border:1px solid black;
+    padding: 1rem;
+}
+
+.tb1{
+    border:1px solid black;
+    padding: 0.5rem 3rem;
+}
+.tb2{
+    border:1px solid black;
+    padding: 0.5rem 2.5rem;
+}
+.tb3{
+    border:1px solid black;
+    padding: 0.5rem 1.5rem;
+}
+/* header皆通用 */
+
+.the_content{
+    margin: 3rem 5rem;
+    position: absolute;
+    left:20%;
+}
+  
+.bike{
+    width: 30px;
+    position: relative;
+    animation-name: example;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    100%  {left:1000px; top:0px;}
+}
+
+.header{
+    color:lightsalmon;
+}
+
+.div1{
+    display: flex;
+    margin-bottom: 1rem;
+    height: 50px;
+    width: 1000px;
+    background-color:antiquewhite;
+}
+div.div1 a{
+    display: flex;
+    align-items: center;
+    color:brown;
+    font-size: 1.1rem;
+}
+div.div1 i{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.div2{
+    padding-top: 1.2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    height: 50px;
+    width: 1000px;
+    background-color:antiquewhite;
+}
+div.div2 a{
+    display: flex;
+    align-items: center;
+    color:brown;
+    font-size: 1.1rem;
+}
+div.div2 i{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+.div2i{
+    display: flex;
+    margin-bottom: 0rem;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+
+footer{
+    position:relative;
+    bottom: -1000px;
+    display:flex;
+    list-style-type:none;
+    width: 100%;
+    background-color: chocolate;
+}
+/*footer_fixed*/
+.footer_div1{
+    padding: 1rem 7rem;
+}
+div.footer_div1 span{
+    color:#ffffff;
+}
+.footer_div2{
+    display: flex;
+    list-style-type:none;
+    padding-left:30rem;
+}
+.footer_div3{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.footer_div4{
+    padding-left: 2rem;
+}
+.footer_span{
+    color:#ffffff;
+    font-size: 1rem;
+}
+
+.footer_span1{
+    color:#ffffff;
+    font-size:1rem;
+}
