@@ -1,0 +1,243 @@
+/*H54084010 陳冠言 第4次作業 5/17 H54084010 陳冠言 The Fourth Homework 5/17*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.wrap {
+    background-image: url(../images/blackJackBackground.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.container {
+    background-size: 100% 100%;
+    position: relative;
+    left:15%;
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+}
+table{
+    position: absolute;
+    top:1.5rem;
+    left:1%;
+    text-align: center;
+    color: rgb(210, 232, 251);
+    width:33%;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+h5{
+    position: absolute;
+    right: 4.8rem;
+    top: 5em;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+#sorted{
+    position: absolute;
+    right: 8rem;
+    top: 9em;
+    color: aliceblue;
+}
+/*---------------廣告----------------*/
+#ads{
+    position: absolute;
+    top:3rem;
+    overflow: hidden;
+    right:1rem;
+}
+/*---------------系統提示----------------*/
+.tips {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 2rem;
+    width: 13em;
+    height: 3em;
+    line-height: 3em;
+    z-index: 100;
+    text-align: center;
+    color: #fff;
+    background-color: #0c1b3d;
+    box-shadow: 0 0 1em #c1edf6;
+    border-radius: 1em;
+}
+/*動畫*/
+.fadeIn {
+    animation: fadeIn 1.5s;
+}
+
+.fadeOut {
+    animation: fadeOut 1.5s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/*---------------玩家----------------*/
+#player_s{
+    color: white;
+    position: absolute; 
+    top:20rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.player-card {
+    position: absolute;
+    bottom: 18em;
+    left: 5em;
+}
+.player-card img {
+    width: 4em;
+    position: absolute;
+}
+
+.player-card-double {
+    position: absolute;
+    bottom: 14em;
+    left: 11em;
+    background-color: #ccc;
+}
+.player-card-double img {
+    position: absolute;
+    width: 4em;
+}
+/*---------------莊家----------------*/
+#dealer_s{
+    color: white;
+    position: absolute; 
+    top:2rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.banker-card {
+    position: absolute;
+    top: 4em;
+    left: 5em;
+}
+.banker-card img {
+    position: absolute;
+    width: 4em;
+}
+
+/*---------------功能模組(按鈕)----------------*/
+.botton_use{
+    position: absolute;
+    bottom: 10em;
+    background-color: #045194;
+    color: #fff;
+    border: 0;
+    box-shadow: 0 0 1em #f3f2c8;
+}
+ .insurance {
+    right: -2rem;
+    width: 8em;
+    height: 3em;
+    bottom: 15em;
+    border-radius: 1em;
+}
+.deal {
+    right: -2rem;
+    width:10%;
+    height: 3em;
+    border-radius: 1em;
+}
+
+.cheat{
+    left: 0rem;
+    width:10%;
+    height: 3em;
+    border-radius: 1em;
+}
+
+.container .add-bet {
+    position: absolute;
+    bottom: 5em;
+    text-align: center;
+}
+.container .add-bet button {
+    margin: 0;
+}
+
+.botton_func {
+    position: absolute;
+    bottom: 2.5em;
+    width: 100%;
+    text-align: center;
+}
+.botton_func button {
+    display: inline-block;
+    width: 5em;
+    height: 3em;
+    border-radius: 100%;
+    border: 0;
+    margin: -10px 10px;
+    box-shadow: 0 0 2em #ace8f6;
+    background-color: #101754;
+    color: #fff;
+    font-weight: bold;
+}
+
+/*----------footer----------*/
+.footer {
+    color: #b1d9f3;
+    position: absolute;
+    bottom: 0.5em;
+    width: 100%;
+}
+#timecount{
+    position: absolute;
+    bottom: 1rem;
+    left: 0.5rem;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    color:aliceblue;
+    font-size:1rem;
+}
+.bet {
+    float: left;
+    margin-left: 1em;
+}
+.balance {
+    float: right;
+    margin-right: 1em;
+}
+.footer span {
+    color: #fff;
+}

@@ -1,0 +1,88 @@
+<!--H54084010 陳冠言 第4次作業 5/17 H54084010 陳冠言 The Fourth Homework 5/17-->
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Eric Chen"/>
+    <meta name="description" content=""/>
+    <meta name="robots" content="index,follow"/>
+    <meta name="rating" content="General"/>
+    <meta target="_self"/>
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="./style/style.css"/>
+    <link rel="shortcut icon" href="./images/icon.png"/>
+    <link rel="bookmark" href=""/>
+</head>
+<body>
+    <div id="ads"></div>
+    <scan id="timecount">Time：<scan id="cTime"> </scan> sec</scan>
+
+    <table id="myTable">
+        <tr>
+            <th>回合數</th>
+            <th>玩家勝利</th>
+            <th>莊家勝利</th>
+            <th>平局</th>
+            <th>玩家紀錄</th>
+            <th>莊家紀錄</th>
+        </tr>
+        <tbody id="tbody"></tbody>
+    </table>
+
+    <h5>排序好的遊戲紀錄</h5>
+
+    <ul id="sorted">
+        
+    </ul>
+
+    <div class="wrap">
+        <div class="container">
+            <div class="tips"></div>
+
+            <!--莊家-->
+            <span id="dealer_s">莊家：</span>
+            <div class="banker-card"></div>
+
+            <!--玩家-->
+            <span id="player_s">玩家：</span>
+            <div class="player-card"></div>
+
+            <div class="player-card-double"></div>
+
+            <button class="insurance botton_use">Surrender</button>
+
+            <button class="deal botton_use">Deal</button>
+
+            <button class="cheat botton_use">Cheat</button>
+
+            <div class="add-bet botton_func"></div>
+
+            <div class="botton_func operation">
+                <button>Split</button>
+                <button>Double</button>
+                <button>Hit</button>
+                <button>Stand</button>
+            </div>
+            <div class="botton_func money">
+                <button class="m5">5</button>
+                <button class="m10">10</button>
+                <button class="m25">25</button>
+                <button class="m100">100</button>
+            </div>
+            <footer class="footer">
+                <div class="bet">
+                    籌碼：<span class="bet_money">5</span>
+                </div>
+                <div class="balance">
+                    剩餘籌碼：<span class="balance_money">100</span>
+                </div>
+            </footer>
+        </div>
+        <p>Copyright © 2023 H54084010 陳冠言</p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="./script/app.js"></script>
+</body>
+</html>
